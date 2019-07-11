@@ -61,7 +61,7 @@ class CodeMain {
 			args = validatePaths(args);
 		} catch (err) {
 			console.error(err.message);
-			app.exit(1);
+			app.exit(0);
 
 			return;
 		}
