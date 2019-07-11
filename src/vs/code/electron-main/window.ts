@@ -36,13 +36,14 @@ export interface IWindowCreationOptions {
 
 export const defaultWindowState = function (mode = WindowMode.Normal): IWindowState {
 	return {
-		width: 1024,
+		width: 2048,
 		height: 768,
 		mode
 	};
 };
 
 interface ITouchBarSegment extends Electron.SegmentedControlSegment {
+	// comments...
 	id: string;
 }
 
